@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-label="Orogen — horizontal lockup, dark">
+  <title>Orogen — horizontal lockup (dark background)</title>
+  <desc>Mark on the left, "Orogen" wordmark to the right. For use on crust-950 (#0b0d10) backgrounds.</desc>
+  <rect width="1280" height="320" fill="#0b0d10"/>
+
+  <!-- mark, 256x256 at left, vertically centered -->
+  <g transform="translate(64,32) scale(0.25)">
+    <path
+      d="M96 800 L352 352 L480 544 L640 224 L928 800 Z"
+      fill="none"
+      stroke="#f59e0b"
+      stroke-width="42"
+      stroke-linejoin="miter"
+      stroke-miterlimit="10"
+    />
+    <line x1="96" y1="800" x2="928" y2="800" stroke="#f59e0b" stroke-width="42"/>
+    <path
+      d="M352 352 L480 544 L640 224"
+      fill="none"
+      stroke="#34d399"
+      stroke-width="22"
+      stroke-linejoin="miter"
+      stroke-miterlimit="10"
+    />
+  </g>
+
+  <!-- wordmark -->
+  <g
+    font-family="Inter, 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+    font-weight="700"
+    font-size="148"
+    letter-spacing="-1.5"
+  >
+    <text x="384" y="208" fill="#e9ebef">Orogen</text>
+  </g>
+</svg>

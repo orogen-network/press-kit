@@ -1,0 +1,1 @@
+Orogen is a live decentralized network for verifiable LLM inference — an OpenAI-compatible gateway routed to TEE-attested GPU operators, with validator replay, opML challenges, and burn-and-mint settlement on a Substrate-based chain.

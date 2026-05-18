@@ -1,0 +1,5 @@
+Orogen is a decentralized network for verifiable LLM inference. An OpenAI-compatible gateway routes requests to GPU operators whose hardware is attested by multi-vendor TEE (Intel TDX, AMD SEV-SNP, NVIDIA Confidential Computing); validators replay a stake-weighted sample of jobs on identical hardware and submit on-chain receipts today; opML challenge windows and zkML proofs cover the residual cases.
+
+Settlement runs through a pallet-enforced burn-and-mint engine on a Substrate-based chain with Frontier EVM compatibility and GRANDPA finality. Customers pay in non-transferable Compute Unit Credits (CUC), which the gateway burns; operators are paid in newly minted OROG indexed to a USD-denominated rate that tracks real burn. Emission is demand-elastic with a 5%/year supply ceiling and a rolling-90-day burn-cap floor.
+
+The network token is OROG. The stable compute credit is CUC. Forge testnet is the live network; mainnet TGE follows audit completion. Hardware spans six tiers from datacenter-premium to embed-only, each with its own stake floor and SLA. Documentation, RFCs, and SDKs live at orogen.network.

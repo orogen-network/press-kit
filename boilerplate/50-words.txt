@@ -1,0 +1,1 @@
+Orogen is a decentralized network for verifiable LLM inference. Its OpenAI-compatible gateway routes traffic to TEE-attested GPU operators today; validators replay jobs on identical hardware; settlement runs through a pallet-enforced burn-and-mint engine that pays operators in USD-denominated rewards. Forge testnet is live; mainnet TGE follows audit completion.
