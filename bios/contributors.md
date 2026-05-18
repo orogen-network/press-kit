@@ -27,4 +27,4 @@ The current public list of named contributors — founder, CTO, chain lead, head
 
 ## Maintainer credit
 
-The implementation seed in this repository was authored by **Moshe Malawach** ([github.com/moshemalawach](https://github.com/moshemalawach)). Attribution rolls to the foundation organization as the repository is migrated to `github.com/orogen-network`.
+The implementation seed across the Orogen repositories was authored by **Moshe Malawach** ([github.com/moshemalawach](https://github.com/moshemalawach)). Attribution rolls to the foundation organization at [github.com/orogen-network](https://github.com/orogen-network).
