@@ -8,7 +8,7 @@
 
 ---
 
-## Orogen launches mainnet: verifiable LLM inference goes live on mainnet OROG, with USD-denominated operator payouts
+## Orogen launches mainnet: verifiable LLM inference on mainnet OROG
 
 **[Foundation city], [Mainnet TGE date].** Orogen, a decentralized network for verifiable LLM inference, today launches its mainnet and token generation event. The Forge testnet has been running since [Forge launch date], routing OpenAI-compatible traffic to TEE-attested GPU operators with validator replay over identical hardware. Mainnet inherits that operational record and the closed-loop verification stack, and adds the live OROG token with burn-and-mint settlement on a Substrate-based chain (Polkadot SDK plus Frontier EVM JSON-RPC, with GRANDPA finality). Settlement is pallet-enforced rather than policy-enforced: customers pay in non-transferable Compute Unit Credits (CUC), the gateway burns CUC at job completion, and the chain mints OROG to operators at a USD-denominated rate that tracks real burn. The network ships an OROG token with a 75/15/5/5 emission split, a 5%/year supply ceiling, and a rolling-90-day burn-cap floor — no foundation mint discretion.
 
@@ -22,9 +22,9 @@ Orogen is a decentralized network for verifiable LLM inference. An OpenAI-compat
 
 Settlement runs through a pallet-enforced burn-and-mint engine on a Substrate-based chain (Polkadot SDK, Frontier EVM JSON-RPC, GRANDPA finality, ~12-second blocks). Customers pay in non-transferable Compute Unit Credits (CUC) with a 30-day expiry; the gateway burns CUC at job completion and the chain mints OROG to the operator at a USD-denominated rate that tracks real burn. The emission schedule is demand-elastic with a 5%/year supply ceiling and a rolling-90-day burn-cap floor — no foundation mint discretion.
 
-Operators self-declare into one of six hardware tiers from datacenter-premium (Hopper/Blackwell with full attestation) down to embed-only (CPU edge), each with its own stake floor and SLA. Validators earn a 15% slice for replay and anomaly detection. Customers get drop-in OpenAI compatibility: existing application code works against a different base URL.
+Operators self-declare into one of six hardware tiers from datacenter-premium (Hopper/Blackwell with full attestation) down to embed-only (CPU edge), each with its own stake floor and SLA. Validator settlement is tied to replay and anomaly detection. Customers get drop-in OpenAI compatibility: existing application code works against a different base URL.
 
-The network token is OROG, with a 75/15/5/5 emission split (operators, validators, treasury, ecosystem) and a 12% investor allocation behind a 4-year cliff plus 4-year linear vest. Governance is on-chain at mainnet TGE; foundation control of the mint is contractually capped, not policy-capped. The testnet is Forge; mainnet runs the same protocol against the live OROG token.
+The network token is OROG, with a 75/15/5/5 emission split across operators, validators, treasury, and ecosystem. Locked-backer and team allocations follow long vesting schedules. Governance is on-chain at mainnet TGE; foundation control of the mint is contractually capped, not policy-capped. The testnet is Forge; mainnet runs the same protocol against the live OROG token.
 
 Documentation, RFCs, downloads, and the source code live at [orogen.network](https://orogen.network).
 
@@ -39,6 +39,6 @@ Documentation, RFCs, downloads, and the source code live at [orogen.network](htt
 
 ### Forward-looking statement
 
-This release describes Orogen's mainnet launch as of the date above. Nothing in this release constitutes investment advice, a solicitation, or an offer of securities. Jurisdictional eligibility is determined at mainnet TGE.
+This template must be reviewed by counsel before distribution.
 
 ###

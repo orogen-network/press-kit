@@ -1,6 +1,6 @@
 # Orogen press kit
 
-This directory holds the materials a journalist, partner, exchange listing analyst, or community moderator needs to refer to Orogen accurately and with on-brief assets. The Orogen Forge testnet is live; mainnet TGE follows audit completion. SVGs are the source of truth for marks; PNG rasters are convenience renders for platforms that do not accept SVG.
+This directory holds the materials a journalist, partner, exchange listing analyst, or community moderator needs to refer to Orogen accurately and with on-brief assets. Orogen Forge readiness is tracked through the published release gates; mainnet TGE follows audit completion. SVGs are the source of truth for marks; PNG rasters are convenience renders for platforms that do not accept SVG.
 
 ## What's in here
 
