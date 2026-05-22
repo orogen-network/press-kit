@@ -1,6 +1,6 @@
 # Brand quick reference
 
-> This page is a quick-reference cheat sheet. The canonical source for voice, naming, palette, typography, motion, and imagery is the internal Orogen brand voice guide; this file is the public-press surface of those rules.
+> This page is a quick-reference cheat sheet for public press materials: naming, palette, typography, motion, and imagery.
 
 ---
 
@@ -140,5 +140,5 @@ press-kit/
     forge-testnet-launch.md                Forge testnet launch announcement
     mainnet-tge.md                         Mainnet TGE announcement template
   bios/
-    contributors.md                        press-template bio schema; live list at orogen.network/community
+    contributors.md                        press-template bio schema; named list requires approval
 ```

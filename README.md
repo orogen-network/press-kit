@@ -11,13 +11,13 @@ This directory holds the materials a journalist, partner, exchange listing analy
 | [`logos/`](./logos/) | Mark, horizontal lockup (dark + light), stacked lockup, wordmark | Any visual use |
 | [`boilerplate/`](./boilerplate/) | One-liner, 50-word, 150-word, 300-word | Drop into articles, "About" sections, exchange listings |
 | [`press-releases/`](./press-releases/) | Forge testnet launch announcement + mainnet TGE template | Adapt for issued releases |
-| [`bios/contributors.md`](./bios/contributors.md) | Press-template contributor bio schema | Underlying schema; live list at [orogen.network/community](https://orogen.network/community) |
+| [`bios/contributors.md`](./bios/contributors.md) | Press-template contributor bio schema | Underlying schema; named lists stay out of public boilerplate until approved |
 
 ## Quick reference
 
 - **Network:** Orogen
 - **Token:** OROG
-- **Testnet:** Forge (live)
+- **Testnet:** Forge readiness-gated
 - **Domain:** [orogen.network](https://orogen.network)
 - **Documentation:** [docs.orogen.network](https://docs.orogen.network)
 - **Source code:** [github.com/orogen-network](https://github.com/orogen-network)

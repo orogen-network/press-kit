@@ -1,6 +1,6 @@
 # PRESS RELEASE — MAINNET TGE TEMPLATE
 
-**Status:** Template / draft. Final copy must be approved by Founders, GC, and Marketing before any wire distribution. Replace remaining placeholder markers with named, sourceable values.
+**Status:** Draft template, not a public announcement. Final copy must be approved by founders, counsel, and marketing before any wire distribution. Replace remaining placeholder markers with named, sourceable values.
 
 **Embargo until:** [Mainnet TGE date, set after final audit sign-off].
 **Dateline:** [Foundation jurisdiction city], [Mainnet TGE date].
@@ -14,7 +14,7 @@
 
 **Why this matters.** Decentralized AI infrastructure has accumulated working components but no end-to-end settlement layer with closed-loop verification. Bittensor's SN3 ran 70+ peers across 3 continents at 500/110 Mbps commodity bandwidth, demonstrating that distributed inference scales on consumer-grade links. Phala's TEE attestation already routes over 1 billion tokens per day for OpenRouter clients, demonstrating that TEE-based confidentiality is production-ready. Akash's burn-and-mint redesign shifted token economics from a 13–15% inflationary regime to revenue-pegged net deflation when demand runs hot, demonstrating that BME aligns operator payouts with real usage. Orogen composes these three patterns — verifiability, attestation, burn-and-mint — into a single network with a unified API surface, replay over identical hardware, and emission that is mechanically tied to burn.
 
-**[Founder name, title]** said: "[Quote, ≤60 words. Should restate verifiability and USD-denominated operator economics, name one constituency (customers, operators, or validators), and avoid the banned-words list in §4 of the brand voice guide.]"
+**[Founder name, title]** said: "[Quote, ≤60 words. Should restate verifiability and USD-denominated operator settlement, name one constituency (customers, operators, or validators), and avoid yield or investment framing.]"
 
 ### About Orogen
 
