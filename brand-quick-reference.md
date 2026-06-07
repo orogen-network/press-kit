@@ -23,7 +23,7 @@ Never use `$OROG`, `OROGEN` (all caps for the network), `Orog`, `orogen Network`
 
 ## Etymology (for press)
 
-"Orogen" is the Greek-root word for the geological process of mountain-building — slow accumulation of verifiable work that produces something permanent. The brand mark is a crystalline mountain with an inner emerald ridge denoting the verifiable inner facet.
+"Orogen" is the Greek-root word for the geological process of mountain-building — slow accumulation of verifiable work that produces something permanent. The brand mark is nested geological strata with a mineral green verification axis.
 
 Use the geological metaphor **once** per surface and drop it. Don't season every paragraph with mountain talk.
 
@@ -45,28 +45,23 @@ All tokens are defined canonically in `landing-site/tailwind.config.mjs`. Reuse 
 | `crust-200` | `#cfd3dc` | Body |
 | `crust-100` | `#e9ebef` | Primary body / wordmark on dark |
 
-### Magma — accent, action, brand
+### Mineral — verification axis
 
 | Token | Hex | Usage |
 |---|---|---|
-| `magma-300` | `#fcd34d` | Hover state (links, CTAs) |
-| `magma-400` | `#fbbf24` | Active accents |
-| `magma-500` | `#f59e0b` | Default brand stroke (mark outline), primary CTA, links |
-| `magma-600` | `#d97706` | Pressed CTA |
+| `mineral-500` | `#2AB67D` | Verification axis, verified state, primary brand accent |
 
-### Crystal — emphasis, "verifiable"
+### Copper — secondary accent
 
 | Token | Hex | Usage |
 |---|---|---|
-| `crystal-400` | `#6ee7b7` | Hover on verified badges |
-| `crystal-500` | `#34d399` | Default inner-ridge of the mark; "verified" badges |
-| `crystal-600` | `#10b981` | Pressed verified state |
+| `copper-500` | `#C8753B` | Secondary campaign and illustration accent |
 
-Use crystal **sparingly**. It signals verifiability, not generic success. Pass / fail / warning in dashboards uses `crystal-500 / red-500 / magma-400` — not arbitrary `#0a0` / `#a00`.
+Use mineral green **sparingly**. It signals verifiability, not generic success. Pass / fail / warning in dashboards uses explicit status colors, not arbitrary `#0a0` / `#a00`.
 
 ### Light-background variants (when the dark default cannot be used)
 
-The `orogen-horizontal-light.svg` file demonstrates the on-light substitutions: mark outline becomes `#b4730a` (darker amber for AA contrast on `crust-100`), inner ridge becomes `#0f8a64` (darker emerald). Wordmark switches to `crust-950`.
+The `orogen-horizontal-light.svg` file demonstrates the on-light substitutions: strata use graphite `#151A1E`, the axis remains mineral green `#2AB67D`, and the wordmark switches to `crust-950`.
 
 ---
 
@@ -93,7 +88,7 @@ The `orogen-horizontal-light.svg` file demonstrates the on-light substitutions: 
 **Don't:**
 
 - Don't fill the mark — it is always stroked.
-- Don't recolor outside the palette. Magma outer ridge + crystal inner ridge are non-negotiable.
+- Don't recolor outside the palette. Use graphite/light-crust strata plus the mineral green axis.
 - Don't rotate, skew, or distort.
 - Don't drop-shadow or outer-glow the mark.
 - Don't place on busy photographic backgrounds. Use a brand-color background or a quiet neutral.
@@ -137,6 +132,7 @@ press-kit/
     150-words.txt                          standard boilerplate
     300-words.txt                          long boilerplate / "About"
   press-releases/
+    aleph-cloud-bootstrap.md               Aleph Cloud infrastructure announcement draft
     forge-testnet-launch.md                Forge testnet launch announcement
     mainnet-tge.md                         Mainnet TGE announcement template
   bios/

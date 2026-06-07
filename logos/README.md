@@ -47,16 +47,18 @@ If none of the above are available on the target machine, the SVGs themselves ar
 
 ## Notes on the design
 
-The mark is a five-point ridge polygon with an inner emerald hairline tracing the central two ridges. The canonical 64-px favicon path data is:
+The mark is nested geological strata with a mineral green verification axis. The canonical 128-px source geometry is:
 
 ```
-outer polygon: M6 50 L22 22 L30 34 L40 14 L58 50 Z
-horizon line:  6,50 → 58,50
-inner ridge:   M22 22 L30 34 L40 14
+upper strata: M24 38C40 38 50 29 64 26C78 29 88 38 104 38
+middle strata: M20 56C38 56 49 47 64 44C79 47 90 56 108 56
+lower strata: M18 74C37 74 49 64 64 61C79 64 91 74 110 74
+base strata: M24 92C41 92 52 82 64 78C76 82 87 92 104 92
+verification axis: 64,28 → 64,92
 ```
 
-`orogen-mark.svg` carries the favicon path data verbatim and scales / translates it into a 1024×1024 viewBox so the mark fills the canvas with ≈14% clearspace on every side (clearspace at least half the mark height). The horizontal-lockup and stacked SVGs inline the same shape with their own per-lockup scale; if you edit the path, edit all four.
+`orogen-mark.svg` scales the 128-px geometry into a 1024×1024 viewBox with clearspace on every side. The horizontal-lockup and stacked SVGs inline the same shape with their own per-lockup scale; if you edit the path, edit all four.
 
-Stroke weights follow the favicon: outer/horizon = 2.6 px-equivalent; inner ridge = 1.4 px-equivalent. The miter-join is preserved — never substitute round joins; they soften the crystalline character of the mark.
+Stroke weights follow the source mark: strata = 10 px-equivalent; verification axis = 8 px-equivalent. Round caps and joins are part of the canonical strata geometry.
 
-The mark is always stroked, never filled, and never used outside the palette (magma `#f59e0b` outer + crystal `#34d399` inner on dark; `#b4730a` outer + `#0f8a64` inner on light for AA contrast).
+The mark is always stroked, never filled, and never used outside the palette: graphite `#151A1E` on light, light crust `#F5F7F8` on dark, and mineral green `#2AB67D` for the verification axis.

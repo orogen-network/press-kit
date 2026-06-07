@@ -17,7 +17,7 @@ This directory holds the materials a journalist, partner, exchange listing analy
 
 - **Network:** Orogen
 - **Token:** OROG
-- **Testnet:** Forge readiness-gated
+- **Testnet:** Forge
 - **Domain:** [orogen.network](https://orogen.network)
 - **Documentation:** [docs.orogen.network](https://docs.orogen.network)
 - **Source code:** [github.com/orogen-network](https://github.com/orogen-network)
@@ -27,7 +27,7 @@ This directory holds the materials a journalist, partner, exchange listing analy
 
 ## How to use the logos
 
-The brand mark is a crystalline mountain in **stroked** outline — a five-point ridge with the inner two ridges drawn in emerald (the "verifiable" inner facet) and the outer silhouette in magma amber. The horizon baseline closes the polygon.
+The brand mark is nested geological strata forming a compact uplift symbol. A mineral green vertical axis marks verification through the center of the strata.
 
 | Asset | Format | Background | Best for |
 |---|---|---|---|
@@ -49,7 +49,7 @@ The brand mark is a crystalline mountain in **stroked** outline — a five-point
 **Don't:**
 
 - Don't fill the mark — it is always stroked.
-- Don't recolor outside the palette. Magma `#f59e0b` outer ridge + crystal `#34d399` inner ridge are non-negotiable on dark backgrounds. On light, use `#b4730a` outer + `#0f8a64` inner (see `orogen-horizontal-light.svg`).
+- Don't recolor outside the palette. Use graphite `#151A1E` on light backgrounds, light crust `#F5F7F8` on dark backgrounds, and mineral green `#2AB67D` for the verification axis.
 - Don't rotate, skew, distort, or apply effects (drop shadow, outer glow).
 - Don't shrink below 24 px tall.
 

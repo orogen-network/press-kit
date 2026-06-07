@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Orogen avatar">
+  <title>Orogen avatar</title>
+  <desc>Orogen nested-strata mark centered on crust-950 with faint copper/mineral radial wash. Circle-crop safe for social avatars.</desc>
+  <defs>
+    <radialGradient id="copper" cx="0.12" cy="0.10" r="0.9">
+      <stop offset="0" stop-color="#C8753B" stop-opacity="0.13"/>
+      <stop offset="0.62" stop-color="#C8753B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="emer" cx="0.9" cy="0.94" r="0.9">
+      <stop offset="0" stop-color="#2AB67D" stop-opacity="0.10"/>
+      <stop offset="0.62" stop-color="#2AB67D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#0b0d10"/>
+  <rect width="400" height="400" fill="url(#copper)"/>
+  <rect width="400" height="400" fill="url(#emer)"/>
+  <g transform="translate(56,56) scale(2.25)">
+    <path d="M24 38C40 38 50 29 64 26C78 29 88 38 104 38" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20 56C38 56 49 47 64 44C79 47 90 56 108 56" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 74C37 74 49 64 64 61C79 64 91 74 110 74" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 92C41 92 52 82 64 78C76 82 87 92 104 92" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 28V92" stroke="#2AB67D" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="64" cy="28" r="6" fill="#2AB67D"/>
+    <circle cx="64" cy="61" r="5" fill="#2AB67D"/>
+    <circle cx="64" cy="92" r="6" fill="#2AB67D"/>
+  </g>
+</svg>

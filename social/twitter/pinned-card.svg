@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Orogen — verifiable LLM inference">
+  <title>Orogen pinned-tweet card</title>
+  <desc>Verifiable LLM inference, anchored to physical work. OpenAI-compatible API, attested operators, validators replay the work, on-chain receipts anyone can verify. orogen.network — Forge testnet.</desc>
+  <defs>
+    <radialGradient id="copper" cx="0.10" cy="0.08" r="0.95">
+      <stop offset="0" stop-color="#C8753B" stop-opacity="0.13"/>
+      <stop offset="0.58" stop-color="#C8753B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="emer" cx="0.92" cy="0.95" r="0.95">
+      <stop offset="0" stop-color="#2AB67D" stop-opacity="0.10"/>
+      <stop offset="0.58" stop-color="#2AB67D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0b0d10"/>
+  <rect width="1600" height="900" fill="url(#copper)"/>
+  <rect width="1600" height="900" fill="url(#emer)"/>
+
+  <!-- oversized faint mark, bleeding off the right edge -->
+  <g transform="translate(610,86) scale(8.4)" opacity="0.15">
+    <path d="M24 38C40 38 50 29 64 26C78 29 88 38 104 38" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20 56C38 56 49 47 64 44C79 47 90 56 108 56" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 74C37 74 49 64 64 61C79 64 91 74 110 74" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 92C41 92 52 82 64 78C76 82 87 92 104 92" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 28V92" stroke="#2AB67D" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="64" cy="28" r="6" fill="#2AB67D"/>
+    <circle cx="64" cy="61" r="5" fill="#2AB67D"/>
+    <circle cx="64" cy="92" r="6" fill="#2AB67D"/>
+  </g>
+
+  <!-- top-left lockup: mark + wordmark -->
+  <g transform="translate(100,50) scale(0.75)">
+    <path d="M24 38C40 38 50 29 64 26C78 29 88 38 104 38" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20 56C38 56 49 47 64 44C79 47 90 56 108 56" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 74C37 74 49 64 64 61C79 64 91 74 110 74" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 92C41 92 52 82 64 78C76 82 87 92 104 92" fill="none" stroke="#F5F7F8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 28V92" stroke="#2AB67D" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="64" cy="28" r="6" fill="#2AB67D"/>
+    <circle cx="64" cy="61" r="5" fill="#2AB67D"/>
+    <circle cx="64" cy="92" r="6" fill="#2AB67D"/>
+  </g>
+  <text x="212" y="129" font-family="Inter" font-weight="700" font-size="40" letter-spacing="-0.6" fill="#e9ebef">Orogen</text>
+
+  <!-- headline -->
+  <text x="100" y="432" font-family="Inter" font-weight="600" font-size="76" letter-spacing="-1.4" fill="#e9ebef">Verifiable LLM inference,</text>
+  <text x="100" y="520" font-family="Inter" font-weight="600" font-size="76" letter-spacing="-1.4" fill="#e9ebef">anchored to physical work.</text>
+
+  <!-- supporting line -->
+  <text x="100" y="602" font-family="Inter" font-weight="400" font-size="30" letter-spacing="0.1" fill="#c2c9d4">OpenAI-compatible API &#183; attested operators &#183; validators replay the work &#183; on-chain receipts.</text>
+
+  <!-- bottom row -->
+  <text x="100" y="822" font-family="JetBrains Mono" font-weight="600" font-size="27" letter-spacing="0.5" fill="#2AB67D">orogen.network</text>
+  <text x="380" y="822" font-family="JetBrains Mono" font-weight="500" font-size="27" letter-spacing="0.5" fill="#6b7280">/  Forge testnet</text>
+  <text x="1500" y="822" text-anchor="end" font-family="JetBrains Mono" font-weight="500" font-size="27" letter-spacing="0.5" fill="#8b93a1">@Orogen_Network</text>
+</svg>
