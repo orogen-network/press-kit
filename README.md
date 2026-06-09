@@ -42,14 +42,15 @@ The brand mark is nested geological strata forming a compact uplift symbol. A mi
 
 **Do:**
 
-- Pair the mark with the wordmark `Orogen` in Inter 600+ on dark backgrounds.
+- Pair the mark with the wordmark `Orogen` in Inter 600.
 - Maintain clearspace of at least half the mark height on every side.
 - Use the mark alone for favicons, social avatars, and contexts ≤ 32 px.
 
 **Don't:**
 
-- Don't fill the mark — it is always stroked.
-- Don't recolor outside the palette. Use graphite `#151A1E` on light backgrounds, light crust `#F5F7F8` on dark backgrounds, and mineral green `#2AB67D` for the verification axis.
+- Don't restroke or outline the mark — it is a solid two-color fill.
+- Don't recolor outside the palette. Use the color treatment (graphite `#282827` crust over teal `#105354` base) on light backgrounds, and the dark treatment (white `#ffffff` crust over teal `#4c898a` base) on dark backgrounds.
+- Don't squish the mark — it is taller than wide (aspect ≈ 0.776). Size by height and let the width follow.
 - Don't rotate, skew, distort, or apply effects (drop shadow, outer glow).
 - Don't shrink below 24 px tall.
 

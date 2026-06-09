@@ -23,7 +23,7 @@ Never use `$OROG`, `OROGEN` (all caps for the network), `Orog`, `orogen Network`
 
 ## Etymology (for press)
 
-"Orogen" is the Greek-root word for the geological process of mountain-building — slow accumulation of verifiable work that produces something permanent. The brand mark is nested geological strata with a mineral green verification axis.
+"Orogen" is the Greek-root word for the geological process of mountain-building — slow accumulation of verifiable work that produces something permanent. The brand mark is a hexagonal silhouette of nested strata: layered chevron bands stepping up to an enclosed crust over a teal verification base.
 
 Use the geological metaphor **once** per surface and drop it. Don't season every paragraph with mountain talk.
 
@@ -59,9 +59,16 @@ All tokens are defined canonically in `landing-site/tailwind.config.mjs`. Reuse 
 
 Use mineral green **sparingly**. It signals verifiability, not generic success. Pass / fail / warning in dashboards uses explicit status colors, not arbitrary `#0a0` / `#a00`.
 
-### Light-background variants (when the dark default cannot be used)
+### Mark color treatments
 
-The `orogen-horizontal-light.svg` file demonstrates the on-light substitutions: strata use graphite `#151A1E`, the axis remains mineral green `#2AB67D`, and the wordmark switches to `crust-950`.
+The mark uses two fills, swapped by background:
+
+| Treatment | Crust (upper strata) | Verification base (lower) | Use on |
+|---|---|---|---|
+| Color | graphite `#282827` | teal `#105354` | light backgrounds |
+| Dark | white `#ffffff` | teal `#4c898a` | dark backgrounds |
+
+The `orogen-horizontal-light.svg` file demonstrates the on-light lockup: color mark plus a graphite `#151A1E` wordmark on a `crust-100` field. A single-color `currentColor` variant is available for monochrome contexts.
 
 ---
 
@@ -72,7 +79,7 @@ The `orogen-horizontal-light.svg` file demonstrates the on-light substitutions: 
 - **Heading letter-spacing:** `-0.01em`.
 - **Body line-height:** `1.55–1.65`.
 - **Metric numbers** use tabular-nums (`font-variant-numeric: tabular-nums`).
-- **Wordmark** is Inter **700** at letter-spacing `-0.01em` (≈ `-1.6` in 160 px) on dark backgrounds.
+- **Wordmark** is Inter **600** at letter-spacing `-0.01em` (≈ `-1.6` in 160 px); crust-100 `#e9ebef` on dark, graphite `#151A1E` on light.
 
 ---
 
@@ -80,15 +87,16 @@ The `orogen-horizontal-light.svg` file demonstrates the on-light substitutions: 
 
 **Do:**
 
-- Pair the mark with the wordmark `Orogen` in Inter 600+ on dark.
+- Pair the mark with the wordmark `Orogen` in Inter 600.
 - Use the mark alone for favicons, social avatars, and contexts ≤ 32 px.
 - Maintain clearspace of at least half the mark height on every side.
 - Use the assets in `press-kit/logos/` directly. SVGs are the source of truth.
 
 **Don't:**
 
-- Don't fill the mark — it is always stroked.
-- Don't recolor outside the palette. Use graphite/light-crust strata plus the mineral green axis.
+- Don't restroke or outline the mark — it is a solid two-color fill.
+- Don't recolor outside the palette. Use the color treatment (graphite crust over teal base) on light, the dark treatment (white crust over teal base) on dark.
+- Don't squish the mark — it is taller than wide (aspect ≈ 0.776). Size by height and let the width follow.
 - Don't rotate, skew, or distort.
 - Don't drop-shadow or outer-glow the mark.
 - Don't place on busy photographic backgrounds. Use a brand-color background or a quiet neutral.
@@ -124,7 +132,7 @@ press-kit/
     orogen-horizontal.svg                  mark + wordmark, dark bg
     orogen-horizontal-light.svg            mark + wordmark, light bg
     orogen-stacked.svg                     mark above wordmark, dark bg
-    orogen-wordmark.svg                    wordmark only (Inter 700)
+    orogen-wordmark.svg                    wordmark only (Inter 600)
     README.md                              raster regeneration instructions
   boilerplate/
     one-liner.txt                          §1 sentence
